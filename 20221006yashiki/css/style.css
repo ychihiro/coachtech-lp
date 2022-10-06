@@ -1,6 +1,7 @@
-* {
+body {
   margin: 0;
   padding: 0;
+  height: auto;
 }
 
 /* header */
@@ -31,15 +32,17 @@
 
 
 /* main */
-.main {
+.main-content {
+  position: relative;
   margin-bottom: 20px;
-  /* background-color: #00adb9; */
+  height: 520px;
+  /* background-color: #00adb9;  */
 }
 .main-img {
-  position: relative;
+  position: absolute;
   left: 576px;
   width: 65%;
-  height: 600px;
+  height: 520px;
   background-color: #ff188a;
 }
 
@@ -50,9 +53,9 @@
 
 .container {
   position: absolute;
-  bottom: 50%;
-  left: 40%;
-  width: 500px;
+  top: 85px;
+  left: 20.5%;
+  width: 650px;
   height: 200px;
   /* background-color: aquamarine; */
 }
@@ -62,26 +65,25 @@
 }
 
 .main-ttl {
-  font-size: 50px;
+  font-size: 68px;
   font-weight: bold;
   color: #ff188a;
-  line-height: 50px;
+  line-height: 85px;
   /* background-color: antiquewhite; */
   margin-bottom: 50px;
   font-family: 'Indie Flower', cursive;
 }
 .catch-copy {
   /* background-color: aqua; */
-  line-height: 30px;
+  line-height: 40px;
 }
 .main-msg{
-  font-size: 18px;
+  font-size: 26px;
   font-weight: bold;
   color: #ff188a;
   font-family: 'Indie Flower', cursive;
 }
 .sub-msg {
-  font-size: 12px;
+  font-size: 18px;
   color: #555;
-  line-height: 20px;
 }
