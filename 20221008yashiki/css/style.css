@@ -173,12 +173,14 @@ body {
   width: 100%;
   margin: 0 auto;
   margin-bottom: 70px;
+  background-color: #00adb9;
 }
 .service-ttl {
   padding-top: 65px;
 }
 .grid {
   display: grid;
+  width: 800px;
   grid-template-rows: 155px 155px;
   grid-template-columns: 1fr 1fr;
 }
@@ -281,7 +283,7 @@ body {
 }
 .blog-img {
   width: 100%;
-  height: 200px;
+  height: 130px;
   margin-bottom: 20px;
 }
 .blog-img img {
@@ -300,17 +302,23 @@ body {
   border-radius: 10px 0 0 0;
 }
 .text-box {
-  width: 240px;
+  width: 88%;
   margin: 0 auto;
   line-height: 1.5;
+  background-color: #6f4664;
 }
 .text-box p {
   margin-bottom: 30px;
+  font-size: 11px;
 }
 .date-tag-box {
   display: flex;
   justify-content: space-around;
-  margin: 0 15px 20px 15px;
+  /* margin: 0 15px 15px 15px; */
+  margin-bottom: 15px;
+  width: 200px;
+  font-size: 8px;
+  background-color: #00adb9;
 }
 .btn {
   text-align: center;
