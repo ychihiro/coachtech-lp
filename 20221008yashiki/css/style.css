@@ -144,10 +144,10 @@ body {
   justify-content: center;
 }
 .about-text-group {
-  width: 390px;
+  width: 385px;
   height: 200px;
   margin: 0 auto;
-  /* margin-left: 240px; */
+  margin-right: 0px;
   line-height: 25px;
 }
 .about-text1 {
@@ -158,11 +158,10 @@ body {
   color: #777;  
 }
 .about-img {
-  width: 390px;
+  width: 385px;
   height: 200px;
   margin: 0 auto;
-  /* margin-right: 240px; */
-  background-color: #fff;
+  margin-left: 180px;
 }
 .about-img img {
   width: 100%;
@@ -380,6 +379,7 @@ table td {
 
 /* Contact */
 .contact {
+  width: 100%;
   text-align: center;
   margin-bottom: 85px;
 }
@@ -390,9 +390,18 @@ table td {
   margin-top: 50px;
 }
 .border {
+  display: flex;
+  justify-content: center;
   height: 40px;
-  margin: 10px 718px 37px 0;
+  width: 200px;
+  margin: 20px auto 45px;
+}
+.border-box1 {
+  width: 100px;
   border-right: 2px solid #911955;
+}
+.border-box2 {
+  width: 100px;
 }
 .contact-btn {
   position: relative;
