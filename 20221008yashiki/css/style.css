@@ -200,7 +200,7 @@ body {
   background-color: rgb(112, 86, 132);
 }
 .box-img1 {
-  margin: 30px 200px 15px 200px;
+  margin: 30px  15px 0px;
 }
 .box-ttl1 {
   color: #fff;
@@ -215,12 +215,12 @@ body {
   color: #fff;
 }
 .box-img1 {
-  width: 100px;
+  /* width: 100px; */
   height: 100px;
 }
 .box-img2,
 .box-img3 {
-  width: 100px;
+  /* width: 100px; */
   height: 100px;
 }
 .box-img1 img,
