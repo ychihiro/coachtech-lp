@@ -170,17 +170,16 @@ body {
 
 /* Service */
 .service {
-  width: 100%;
+  width: 65%;
   margin: 0 auto;
   margin-bottom: 70px;
-  background-color: #00adb9;
 }
 .service-ttl {
   padding-top: 65px;
 }
 .grid {
   display: grid;
-  width: 800px;
+  width: 100%;
   grid-template-rows: 155px 155px;
   grid-template-columns: 1fr 1fr;
 }
@@ -283,7 +282,6 @@ body {
 }
 .blog-img {
   width: 100%;
-  height: 130px;
   margin-bottom: 20px;
 }
 .blog-img img {
@@ -292,6 +290,7 @@ body {
 }
 .blog-mark {
   position: absolute;
+  top: 0%;
   bottom: 91%;
   width: 60px;
   height: 30px;
@@ -305,20 +304,17 @@ body {
   width: 88%;
   margin: 0 auto;
   line-height: 1.5;
-  background-color: #6f4664;
 }
 .text-box p {
   margin-bottom: 30px;
-  font-size: 11px;
+  font-size: 17px;
 }
 .date-tag-box {
   display: flex;
   justify-content: space-around;
   /* margin: 0 15px 15px 15px; */
   margin-bottom: 15px;
-  width: 200px;
   font-size: 8px;
-  background-color: #00adb9;
 }
 .btn {
   text-align: center;
